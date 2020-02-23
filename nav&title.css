@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body{
+    background: black;
+    background-image: url('https://cdn.wallpapersafari.com/5/58/Zs8RBi.jpg');
+}
+.navigation{
+    float: right;
+    margin-right: 5px;
+}
+.webTitle{
+
+    margin-top: 20px;
+    color: black;
+}
+
+.block{
+    border: 0%;
+    height:auto;
+    width: auto;
+    background-color: black;
+}
+h1,h3{
+    text-align: center;
+    border-style:solid; 
+    /* border-color:rgb(8, 8, 8);  */
+    box-shadow: 5px 5px 10px rgb(141, 48, 48);
+    border-width:0%;
+    /* background-color: black; */
+    padding: 1%;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 2px;
+
+
+}
+
+.example-container {
+    display:inline-block;
+    text-align: left;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    scroll-margin-inline-start:inherit;
+    border-radius: 2px;
+    background:rgb(251, 255, 28);
+    position: relative ;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+}
+.tracklist{
+    list-style-type: none;
+    margin-left: 10rem;
+    padding: 10px;
+    width: 25%;
+    background-color: black;
+    color: aliceblue;
+    position: absolute; 
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    display:inline-block;
+    text-align: left;
+    height: 67%;
+
+    scroll-margin-inline-start:inherit;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 5px 5px 10px  rgb(141, 48, 48);
+}
+.bio{
+    /* list-style-type: none; */
+    padding: 10px;
+    width: 25%;
+    margin-right: 10rem;
+    color: aliceblue;
+    background-color: black;
+    /* position:fixed; */
+    overflow: auto; 
+    display:inline-block;
+    height: 60%;
+    scroll-margin-inline-start:inherit;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 5px 5px 10px  rgb(141, 48, 48);
+}
+
+.suggestion{
+    /* list-style-type: none; */
+    padding: 10px;
+    width: 50%;
+    margin-top: 6rem;
+    margin-left: 20rem;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    /* position:fixed; */
+
+    height: 65%;
+    scroll-margin-inline-start:inherit;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 5px 5px 10px  rgb(141, 48, 48);
+}
+
+.tracklist{
+    list-style-type: none;
+    margin-left: 2rem;
+    padding: 5px;
+    width: 25%;
+    background-color: black;
+    color: aliceblue;
+    position: absolute; 
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    display:inline-block;
+    text-align: left;
+    height: 67%;
+
+    scroll-margin-inline-start:inherit;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 5px 5px 10px  rgb(141, 48, 48);
+}
+
+.tracklist1{
+    list-style-type: none;
+    margin-left: 2rem;
+    padding: 5px;
+    width: 70%;
+    background-color: black;
+    color: aliceblue;
+    position: absolute; 
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    display:inline-block;
+    text-align: left;
+    height: 67%;
+
+    scroll-margin-inline-start:inherit;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 5px 5px 10px  rgb(141, 48, 48);
+}

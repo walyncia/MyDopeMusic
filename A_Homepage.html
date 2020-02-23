@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Page- My Dope Music</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="nav&title.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <style>
+        .card {
+            display: inline-block;
+            margin: 10px;
+            width: 8rem;
+            height:18rem;
+
+        }
+        .btn-xl {
+            padding: 10px 20px;
+            font-size: 80px;
+
+        }
+        .container{
+            display: inline-block;
+        }
+        .row {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        table {
+            width: 100%;
+            margin-left: 150px;
+            text-align: center;
+        }
+        #link{
+            font-size: 45pt;
+            box-shadow: 5px 5px 10px white;
+        }
+        #link:hover{
+            cursor:grabbing;
+            background-color: white;
+            color: red;
+            box-shadow: 5px 5px 10px rgb(141, 48, 48);
+        }
+        .Redit{
+            display: inline-block;
+            position: relative;
+            font-size: 12pt;
+            left: 0;
+            bottom: -40px;
+            margin-left: 50px;
+            margin-bottom: 20px;
+            box-shadow: 5px 5px 10px rgb(141, 48, 48);
+        }
+    </style>
+</head>
+<body>
+ 
+    <h2 >
+        <p class="block"><a href="Login.html" class="navigation btn btn-danger">Log Out </a>
+        <a href="A_Playlists.html" class="navigation btn btn-danger">Playlists</a>
+        <a href="A_Profile.html" class="navigation btn btn-danger">Profile</a>
+        <a href="A_About.html" class="navigation btn btn-danger">About</a>
+        <a href="A_Albums.html" class="navigation btn btn-danger">Discover Albums</a>
+
+        </p>
+        <p>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control navigation mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-danger my-2 my-sm-0" style="color: white" type = submit>Search</button>
+        </form>
+
+        </p>
+    </h2>
+    <br /> <br />
+    <h1 style= "font-size: 60pt;"> My Dope Music</h1>
+    <br/>
+
+    <h4 style="text-align: center;" ><a href="A_Profile.html" id="link" class="btn btn-danger" >Welcome Back, Admin Pares!</a></h4>
+
+    <br/>
+    <a href="#" class=" btn btn-danger Redit">Edit</a>
+    <div style="text-align: center;">
+        <iframe style="margin-top: 30px; width: 1300px; height: 600px " src="https://www.youtube.com/embed/ViwtNLUqkMY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <table class = "info">
+    <br /> <br />
+        <tr>
+            <td>
+                <p ><a href="#tags" class=" btn btn-danger btn-xl" style="font-size: larger; display: inline;"><b>Top Songs </b></a>
+                <p><a href="#tags" class="btn btn-danger" style="font-size: larger;">Song1 </a></p>
+                <p><a  href="#tags" class="btn btn-danger" style="font-size: larger; ">Song2</a></p>
+                <p><a href="#Concepts" class=" btn btn-danger" style="font-size: larger; ">Song3</a></p>
+                <p><a href="U_About.html" class=" btn btn-danger" style="font-size: larger;">Song4</a></p>
+            </td>
+            
+            <td>
+                <p ><a href="#tags" class=" btn btn-danger btn-xl" style="font-size: larger; text-align: center;"><b>Top Albums </b></a></p>
+                <div class="card  col" style="width: 12rem; height:15rem" >
+                    <img class="card-img-top"  src="https://images.genius.com/d5cb1629b8de680f81346f1967120942.1000x1000x1.jpg" height= auto alt="Album10">
+                    <p  class="card-title" style="font-size: 10pt;"> <a href="U_Product10.html">Juelz Santana- <b>What the Game's Been Missing</b> </a> </p>
+                    <div class="card-body" >
+                        <a href="U_Product10.html" title= "Add to Favorites" class="btn w3-display-bottomright" style="margin-bottom: -3px; margin-right: -3;" >+</a>
+                    </div>
+                </div>
+                <div class="card  col" style="width: 12rem; height:15rem"">
+                    <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/81KYvR%2BCgJL._SL1500_.jpg" height= auto alt="Album2">
+                    <p  class="card-title" style="font-size: 10pt;"> <a href="U_Product2.html">Hiatus Kaiyote- <b>Choose Your weapon</b> </a> </p>
+                    <div class="card-body"  >
+                        <a href="U_Product2.html" title= "Add to Favorites" class="btn w3-display-bottomright"  style="margin-bottom: -3px; margin-right: -3;">+</a>
+        
+                    </div>
+                </div>
+            </td>
+                
+          
+        </tr>
+    </table>
+    
+</body>
+</html>
