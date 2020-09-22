@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin Albums Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="nav&title.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+
+    <style>
+        .card {
+            display: inline-block;
+            margin: 10px;
+            width: 8rem;
+            height:18rem;
+
+        }
+        .row {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .newcard {
+            display: inline-block;
+            margin-right: 72.25rem;
+            width: 8rem;
+            height:18rem;
+          
+
+        }
+        .Redit{
+            display: inline-block;
+
+            font-size: 12pt;
+            left: 0;
+            bottom: -20px;
+            margin-left: 50px;
+            margin-bottom: 20px;
+        
+        
+        
+            box-shadow: 5px 5px 10px rgb(141, 48, 48);
+        }
+    </style>
+</head>
+<body>
+ 
+    <h2 >
+        <p class="block"><a href="/login" class="navigation btn btn-danger">Logout</a>
+        <a  href="/aplaylist" class="navigation btn btn-danger">My Playlists</a>
+        <a href="/aprofile" class="navigation btn btn-danger">Profile</a>
+        <a href="/uabout" class="navigation btn btn-danger">About</a>
+        <a href="/ahome" class="navigation btn btn-danger">Home</a>
+        </p>
+        <p>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control navigation mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-danger my-2 my-sm-0" style="color: white" type = submit>Search</button>
+        </form>
+
+        </p>
+    </h2>
+    <br /> <br />
+    <h1 style= "font-size: 60pt;"> My Dope Music</h1>
+    <h3 style= "font-size: 30;">Discover Albums</h3>
+    <br/>
+<button id="edit" class="btn btn-danger Redit">Edit</button>
+<div id='dropD'>
+
+</div>
+  <div class = "row row-cols-5" > 
+        <div class="card col" >
+            <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Beyoncé_-_4.png/220px-Beyoncé_-_4.png" height= auto alt="Album1">
+            <p  class="card-title"> <a href="/uproducta">Beyonce- <b>4</b> </a> </p>
+            <div class="card-body">
+                <a href="/uproducta" title= "Add to Playlist" class="btn w3-display-bottomright" style="margin-bottom: -3px; margin-right: -3;" >+</a>
+
+            </div>
+        </div>
+
+        <div class="card  col" style="height:18rem">
+            <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/81KYvR%2BCgJL._SL1500_.jpg" height= auto alt="Album2">
+            <p  class="card-title"> <a href="/uproductb">Hiatus Kaiyote- <b>Choose Your weapon</b> </a> </p>
+            <div class="card-body"  >
+                <a href="/uproductb" title= "Add to Playlist" class="btn w3-display-bottomright"  style="margin-bottom: -3px; margin-right: -3;">+</a>
+
+            </div>
+        </div>
+        <div class="card col"  >
+            <img class="card-img-top" src="https://images.genius.com/5f7de4c3be6b529073a1e52cf87a5e19.440x440x1.jpg" height= auto alt="Album3">
+            <p  class="card-title"> <a href="/uproductc">Rod Wave- <b>Ghetto Gospel</b> </a> </p>
+            <div class="card-body" >
+                <a href="/uproductc" title= "Add to Playlist" class="btn w3-display-bottomright" style="margin-bottom: -3px; margin-right: -3;"  >+</a>
+
+            </div>
+        </div>
+
+        <div class="card col" style="height:18rem" >
+            <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/81YO39fK4LL._SL1500_.jpg" height= auto alt="Album4">
+            <p  class="card-title"> <a href="/uproductd">Jonathan McReynolds- <b>Make Room</b> </a> </p>
+            <div class="card-body" style="height: 2rem;">
+                <a href="/uproductd" title= "Add to Playlist" class="btn w3-display-bottomright" style="margin-bottom: -3px; margin-right: -3;" >+</a>
+
+            </div>
+        </div>
+        <div class="card col" >
+            <img class="card-img-top" src="https://images.genius.com/14dc2490f919f5df42c7428432bc3b58.1000x1000x1.jpg" height= auto alt="Album5">
+            <p  class="card-title"> <a href="/uproducte">Moneybagg Yo- <b>Time Served</b> </a> </p>
+            <div class="card-body" >
+                <a href="/uproducte" title= "Add to Playlist" class="btn w3-display-bottomright"  style="margin-bottom: -3px; margin-right: -3;">+</a>
+            </div>
+        </div>
+    </div>
+    <div class = "row row-cols-5" >
+        <div class="card  col" >
+            <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/c/c8/CarterIII.jpg" height= auto alt="Album6">
+            <p  class="card-title"> <a href="/uproductf">Lil Wayne- <b>Carter III</b> </a> </p>
+            <div class="card-body" >
+                <a href="/uproductf" title= "Add to Playlist" class="btn w3-display-bottomright"  style="margin-bottom: -3px; margin-right: -3;">+</a>  
+            </div>
+        </div>
+        <div class="card col" >
+            <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/thumb/2/25/Megan_Thee_Stallion_-_Tina_Snow.png/220px-Megan_Thee_Stallion_-_Tina_Snow.png" height= auto alt="Album7">
+            <p  class="card-title"> <a href="/uproductg">Meg Thee Stallion- <b>Tina Snow</b> </a> </p>
+            <div class="card-body">
+                <a href="/uproductg" title= "Add to Playlist" class="btn w3-display-bottomright"  style="margin-bottom: -3px; margin-right: -3;">+</a>
+        
+            </div>
+        </div>
+
+        <div class="card  col">
+            <img class="card-img-top" src="https://images.genius.com/a41497ee59ea7d58b1bc0570b5c2227f.1000x1000x1.jpg" height= auto margin-top= 5px alt="Album8">
+            <p  class="card-title"> <a href="/uproducth">Jubilee Worship- <b>Atmosphere</b> </a> </p>
+            <div class="card-body">
+                <a href="/uproducth" title= "Add to Playlist" class="btn w3-display-bottomright"  style="margin-bottom: -3px; margin-right: -3;">+</a>
+            
+            </div>
+        </div>
+        <div class="card  col" >
+            <img class="card-img-top" src="https://i0.wp.com/shareehereford.com/wp-content/uploads/2018/02/Jekalyn-Carr.png?fit=450%2C450" height= auto alt="Album9">
+            <p  class="card-title"> <a href="/uproducti">Jekalyn Car- <b>One Nation Under God</b> </a> </p>
+            <div class="card-body">
+                <a href="/uproducti" title= "Add to Playlist" class="btn w3-display-bottomright"  style="margin-bottom: -3px; margin-right: -3;" >+</a>
+             
+            </div>
+        </div>
+        <div class="card  col" >
+            <img class="card-img-top"  src="https://images.genius.com/d5cb1629b8de680f81346f1967120942.1000x1000x1.jpg" height= auto alt="Album10">
+            <p  class="card-title"> <a href="/uproductj">Juelz Santana- <b>What the Game's Been Missing</b> </a> </p>
+            <div class="card-body" >
+                <a href="/uproductj" title= "Add to Playlist" class="btn w3-display-bottomright" style="margin-bottom: -3px; margin-right: -3;" >+</a>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="content" class = "row row-cols-1" >
+        <div id="content">
+
+        </div>
+    </div>
+    <script>
+        $(document).ready(()=>{
+            $('#edit').click(() =>{
+                $('#dropD').append('<div class="alert alert-dark alert-dismissible fade show" role="alert">'+
+                                        '<div class="input-group mb-3">'+
+                                            '<div class="input-group-prepend">'+
+                                                '<span class="input-group-text" id="basic-addon1"> Album Cover (image address):</span>'+
+                                            '</div>'+
+                                            '<input type="text" id="inputurl" class="form-control"  aria-label="item" aria-describedby="basic-addon1" required>'+
+                                        '</div>'+
+                                        
+                                        '<div class="input-group mb-3">'+
+                                            '<div class="input-group-prepend">'+
+                                                '<span class="input-group-text" id="basic-addon1"> Artist name:</span>'+
+                                            '</div>'+
+                                            '<input type="text" id="name" class="form-control"  aria-label="item" aria-describedby="basic-addon1" required>'+
+                                        '</div>'+
+
+                                        '<div class="input-group mb-3">'+
+                                            '<div class="input-group-prepend">'+
+                                                '<span class="input-group-text" id="basic-addon1"> Album name:</span>'+
+                                            '</div>'+
+                                            '<input type="text" id="title" class="form-control"  aria-label="item" aria-describedby="basic-addon1" required>'+
+                                        '</div>'+
+                                        
+                                        '<button id="submit" class="btn btn-danger Redit">submit</button>'+
+                                       
+
+                                        '<button type="button" class="close" data-dismiss=" alert" aria-label="Close">'+
+                                            '<span aria-hidden="true">&times;</span>'+
+                                        '</button>'+
+                                    '</div>')                   
+                $('#submit').click(() =>{
+                    let inputurl = $("#inputurl").val();
+                    let name = $("#name").val();
+                    let title = $("#title").val();
+
+                    let newcard =   '<div class=" newcard card col " style="height:18rem" >'+
+                                        '<img class="card-img-top"  src="' + inputurl +'"  height= auto alt="Album10">'+
+                                        '<p  class="card-title"> <a href="/uproductj">'+ name +'-<b>'+ title +'</b> </a> </p>'+
+                                        '<div class="card-body" >'+
+                                            '<a href="/uproductj" title= "Add to Playlist" class="btn w3-display-bottomright" style="margin-bottom: -3px; margin-right: -3;" >'+'+'+'</a>'+
+                                        '</div>'+
+                                    '</div>';
+                    $('#content').append(newcard);
+
+                    $("#inputurl").val('')
+                    $("#name").val('')
+                    $("#title").val('')
+                });
+
+            });
+        });
+    </script>
+</body>
+
+</html>
